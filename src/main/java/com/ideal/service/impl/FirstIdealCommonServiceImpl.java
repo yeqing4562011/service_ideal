@@ -14,7 +14,7 @@ import com.ideal.common.service.interf.RMIObject;
 public class FirstIdealCommonServiceImpl implements IFirstIdealCommonService{
 	
 	public String firstHessianServicesRMI() throws Exception {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub 
 		System.out.println("This first rmi to service by hessian.");
 		return null;
 	}

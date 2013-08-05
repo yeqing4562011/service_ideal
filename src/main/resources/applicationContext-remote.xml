@@ -6,7 +6,7 @@
 			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 	
 	
-	
+	<!-- service -->
 	<bean name="/idealCommonService" factory-bean="remoteFactory" factory-method="getExporter">
 		<property name="service" ref="firstIdealCommonService"/>
 		<property name="serviceInterface" value="com.ideal.common.service.interf.IFirstIdealCommonService"/>
